@@ -143,7 +143,7 @@ DockerSandbox.prototype.execute = function(success)
     var intid = setInterval(function() 
         {
             //Displaying the checking message after 1 second interval, testing purposes only
-            //console.log("Checking " + sandbox.path+sandbox.folder + ": for completion: " + myC);
+            console.log("Checking " + sandbox.path+sandbox.folder + ": for completion: " + myC);
 
             myC = myC + 1;
 			
