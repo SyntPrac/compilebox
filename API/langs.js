@@ -1,21 +1,10 @@
 
 var LANGS = {
-    "C#": [10, "text/x-csharp"],
-    "C/C++": [7, "text/x-c++src"],
-    "Clojure": [2, "text/x-clojure"],
-    "Java": [8, "text/x-java"],
-    "Go": [6, "text/x-go"],
-    "Plain JavaScript": [4, "text/javascript"],
-    "PHP": [3, "text/x-php"],
-    "Python": [0, "text/x-python"],
-    "Ruby": [1, "text/x-ruby"],
-    "Scala": [5, "text/x-scala"],
-    "VB.NET": [9, "text/x-vb"],
-    "Bash": [11, "text/x-bash"],
-    "Objective-C": [12,"text/x-objectivec"],
-    "MySQL": [13,"text/x-sql"],
-    "Perl": [14, "text/x-perl"],
-    "Rust": [15, "text/rust"],
+    "Plain JavaScript": [0, "text/javascript"],        
+    "C/C++": [1, "text/x-c++src"],	
+    "Bash": [2, "text/x-bash"],
+    "MySQL": [3,"text/x-sql"],
+    
 }
 
 
