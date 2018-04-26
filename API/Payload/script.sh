@@ -43,6 +43,10 @@ exec  2> $"/usercode/errors"
 #3>&1 4>&2 >
 
 START=$(date +%s.%2N)
+
+echo "compiling"
+echo $START
+
 #Branch 1
 if [ "$output" = "" ]; then
     $compiler /usercode/$file -< $"/usercode/inputFile" #| tee /usercode/output.txt

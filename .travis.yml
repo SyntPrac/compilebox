@@ -1,0 +1,11 @@
+language: generic
+
+os: linux
+
+dist: trusty
+
+sudo: required
+
+script:
+  - cd Setup
+  - ./Install_16.04.sh
