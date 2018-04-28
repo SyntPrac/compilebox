@@ -16,7 +16,7 @@
 	*Revised on: 30th June 2014 (Added Column number 4 to display the name of languages to console)
 */
 
-exports.compilerArray= [ //["python","file.py","","Python",""],
+exports.compilerArray= [ ["python","file.py","","Python",""],
 			 //["ruby","file.rb","","Ruby",""],
 			 //["clojure","file.clj","","Clojure",""],
 			 //["php","file.php","","Php",""],

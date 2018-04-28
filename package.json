@@ -1,0 +1,27 @@
+{
+  "name": "compilebox",
+  "version": "1.0.0",
+  "description": "A docker based sandbox for running untrusted code, see @remoteinterview/compilerbox for details",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/Sprinting/compilebox"
+  },
+  "keywords": [
+    "docker",
+    "sandbox",
+    "syntprac",
+    "code-eval"
+  ],
+  "author": "Kartik Mudgal",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  },
+  "dependencies": {
+    "request": "^2.85.0"
+  }
+}
