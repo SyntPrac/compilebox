@@ -6,6 +6,16 @@ dist: trusty
 
 sudo: required
 
-script:
+before_install:
+  - sudo curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash - && sudo apt-get install -y nodejs
+  - node -v && npm -v
   - cd Setup
-  - ./Install_16.04.sh
+  - sudo ./Install_14.04.sh
+  - cd ..
+  - sudo npm install .
+  - sudo npm install -g jasmine
+  - cd  API
+  - npm install .
+  - cd ..
+script:
+  - sudo npm test
